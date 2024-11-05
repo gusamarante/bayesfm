@@ -1,0 +1,2 @@
+# bayesfm
+Bayesian Fama-MacBeth
