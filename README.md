@@ -1,2 +1,2 @@
-# bayesfm
-Bayesian Fama-MacBeth
+# bayesfm - Bayesian Fama-MacBeth
+Testing the update
