@@ -19,5 +19,5 @@ model = BFM(
     n_draws=10_000,
 )
 
-print(model.ci_table_lambda())
+print(model.ci_table_lambda(cred=0.90))
 model.plot_lambda(include_fm=True)
