@@ -202,6 +202,7 @@ class BFM:
                 (1 + cred) / 2,
             ],
         )
+        table.index.name = "Quantiles"
         return table
 
     def ci_table_r2(self, cred=0.95):
@@ -222,6 +223,7 @@ class BFM:
                 (1 + cred) / 2,
             ],
         )
+        table.index.name = "Quantiles"
         return table
 
 
