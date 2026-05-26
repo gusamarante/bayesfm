@@ -1,5 +1,7 @@
 # bayesfm - Bayesian Fama-MacBeth
 
+> **⚠️ DEPRECATED:** `bayesfm` is no longer maintained. The same classes (`BFM`, `BFMGLS`, `BFMOMIT`) are now available in [**empfin**](https://pypi.org/project/empfin/). Please migrate by running `pip install empfin` and replacing `import bayesfm` with `import empfin`.
+
 Implementation of ["Bayesian Fama-MacBeth Regressions"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4989615) from Bryzgalova, Huang and Julliard (2024).
 As presented by the authors, this methodology provides reliable risk premia estimates for both tradable and nontradable factors, 
 detects those weakly identified, delivers valid credible intervals for all objects of interest, and is intuitive, fast and simple to implement.
